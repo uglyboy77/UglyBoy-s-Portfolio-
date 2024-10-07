@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>B4B Portfolio Web.</title>
+  <style>
+  .dropdown-menu.show {
+    display: block;
+    width:50%;
+    height:24%;
+    
+  }
+  .dropdown-menu{
+    text-align:center;  
+    display:none; 
+    z-index: 1000;
+    border-radius:5px;
+    position: absolute;
+    top:50px; 
+    padding-bottom:10px;
+    left:20px; 
+    background:linear-gradient(90deg,#333,white);
+    box-shadow:10px 10px 10px 0 gray;
+    right:0;
+  }
+  .dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+    background-color: white;
+    margin:3px;
+  }
+  .dropdown-menu a:hover {
+    background-color: #ddd;
+    
+  }
+  .exit-button{
+      background-color: #fff;
+      color: black;
+      padding: 5px 15px;
+      margin-left: 70%;
+      margin-top: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .Project1{
+      background-color: white;
+      box-shadow:5px 5px 15px skyblue;
+      border-radius: 8px;
+      width:80%;
+      margin:10px auto;
+      padding:20px;
+      max-width: 600px;
+      text-align:left;
+    }
+    .Project1 b {
+      font-size: 30px;
+    
+    }
+    .Proj h1 {
+      padding: 50px;
+      padding-top: 50px;
+    }
+    .Proj a{
+      text-decoration: none;
+    }
+
+
+</style>
+</head>
+<body>
+<!-- TOP MOST PART -->
+<div style="background:#333; color:#fff;
+border-radius:5px; position:relative; box-shadow:10px 10px 15px 10px rgba(0, 0, 0, 0.5);">
+  <h1 style="text-align:center;">MY PORTFOLIO</h1>
+</div>
+<div id="menutoggle" style="cursor:pointer; width:30px; margin:3px; height:30px; margin-top:20px;margin:30px;"
+onclick="toggleMenu()">
+  <div style="height:3px; margin:5px; background-color:black;"></div>
+  <div style="height:3px; margin:5px; background-color:black;"></div>
+  <div style="height:3px; margin:5px; background-color:black;"></div>
+</div>
+
+<nav class="dropdown-menu" id="dropdownmenu" style="">
+  <button class="exit-button" onclick="toggleMenu()">X</button>
+  <br>
+  <!-- Navigation Area -->
+  <a href="#Projects">Projects</a>
+  <a href="#abouts">About</a>
+  <a href="#contacts">Contact</a>
+</nav>
+ <!-- main body -->
+ <div style="border-width:32px;border-style:solid; border-color:white; box-shadow:10px 10px 10px 20px gray; border-radius:20px; margin-top:100px">
+   <h1>Hi I'm Baffour Brenya Agyenim Boateng and welcome to my page.</h1>
+   <hr>
+   <section id="abouts" style="padding-top:30px;">  
+      <p>
+        I am a passionate and dedicated web developer with a deep love for coding and all things technology. Over the years, I have mastered HTML, CSS, and JavaScript, allowing me to craft dynamic, interactive, and visually appealing websites. Currently, I am diving into Angular as part of my journey to become a Full Stack
+        Developer, further expanding my skill set to handle both front-end and back-end technologies with confidence.
+      </p>
+      <p>
+        My excitement for technology is driven by an insatiable curiosity and a desire to continuously learn and grow. I am almost at the end of my Full Stack Developer course, and I am eager to apply my skills in building meaningful projects. My ultimate goal is to harness the power of technology to create solutions that solve real-world problems and make a positive, lasting impact on the world.
+      </p>
+      <p>
+        I believe in the transformative power of technology, and I’m committed to using my skills to be a part of that change. The future holds endless possibilities, and I am ready to embrace every opportunity to innovate, create, and contribute to a better tomorrow. </section>
+ </div>
+ <!-- projects area -->
+<div class="Proj" style="text-align:center; margin-top:30px; background-color:#f4f4f4; align-items:center; border-radius:10px; padding:50px;"><h1 style="padding-top:2px;">PROJECTS</h1>
+ <section id="Projects">
+     <div class="Project1">
+     <b>Project 1</b><br>
+     A dynamic readme file on GitHub <br>
+     <a href="https://github.com/uglyboy77/uglyboy77">View on Github</a>
+     <div class="Project1">
+     <b>Project 2</b><br>
+     A portfolio site using HTML,JSS & CSS. <br>
+     <a href="https://github.com/uglyboy77/uglyboy77">View on GitHub</a><br>
+     </div>
+     </div>
+     </div>
+   </ol>
+ </section>
+ </div>
+ <!-- contact area -->
+ <section id="contacts">
+   <b>Reach me on:</b> <br>
+   <div class="contacts">
+<a href="https://twitter.com/theuglyboy__"><img src="https://cdn-1.webcatalog.io/catalog/twitter/twitter-icon-filled-256.png?v=1727791318085" alt="theuglyboy__" style="width:40px;"></a>
+<a href="https://www.linkedin.com/in/agyenim-boateng-476865330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s" style="width:40px;"></a>
+<a href="https://www.instagram.com/theuglyboy._?igsh=MTQxbTNyemlzZXpudQ%3D%3D&utm_source=qr"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" style="width:40px;"></img>
+  <a href="https://snapchat.com/t/CQQmDL9W"><img src="https://avatars.githubusercontent.com/u/40505220?s=280&v=4" style="width:40px;"></a>
+<a href="mailto:baffourbrenya@gmail.com"><img src=https://cdn2.downdetector.com/static/uploads/logo/gmail_logo_hSykdMC.jpeg style="width:60px;"></a>
+</div>
+ </section>
+ <!-- footer -->
+ <footer style="background-color:#333; color:white; padding:10px 0px; display:flex; max-width: 1100px;">© 2024 My Portfolio | Created By Baffour Brenya Agyenim Boateng</footer>
+ 
+
+<script>
+function toggleMenu() {
+    const dropmenu = document.getElementById('dropdownmenu');
+    dropmenu.classList.toggle('show');
+}
+
+</script>
+</body>
+</body>
+</html>
