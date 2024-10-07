@@ -1,7 +1,7 @@
 <h1>UGLYBOY-S-PORTFOLIO</h1>
 <hr> 
     🔗Overview
-This projected was developed by myself<b>(Baffour Brenya Agyenim Boateng)</b> on 06/10/24.<br>
+This project was developed by myself <b>(Baffour Brenya Agyenim Boateng)</b> on 06/10/24.<br>
 <p>UGLYBOY-S-PORTFOLIO is a simple website designed to hold my projects,my abilities and skills in tech world.
 It was made up by HTML,CSS & JS. </p>
 
